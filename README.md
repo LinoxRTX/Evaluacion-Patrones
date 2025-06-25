@@ -2,7 +2,9 @@
 
 **Autor:** Vicente Lizana Farías
 
-**Fecha:** Junio 2025
+**Fecha:** 25 De Junio 2025
+
+**Sección:**: 1
 
 ---
 
