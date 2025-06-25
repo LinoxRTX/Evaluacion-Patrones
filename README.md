@@ -1,6 +1,7 @@
 # CRUD de Almacén con Patrones de Diseño GoF
 
 **Autor:** Vicente Lizana Farías
+
 **Fecha:** Junio 2025
 
 ---
