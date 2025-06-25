@@ -111,16 +111,6 @@ El uso de estos patrones en conjunto mejora la calidad del software, haciéndolo
 * Consola o terminal de comandos
 * Visual Studio Code (opcional, pero recomendado)
 
-### Compilación
-
-Desde la raíz del proyecto, ejecuta el siguiente comando en la terminal:
-
-```bash
-javac -d bin src/**/*.java
-```
-
-Este comando compilará todo el código fuente desde `src/` y generará los `.class` en la carpeta `bin/`.
-
 ### Ejecución
 
 Para iniciar el programa, en el entorno que se preparo el programa (Visual Studio Code), se recomienda que se seleccione con el click derecho del mouse o touchpad el archivo **App.java** y seleccionar la opción **Run Java**. Esta es la opción más facil para poder iniciarlo, a fin de cuentas, se busca la comodidad del usuario.
