@@ -107,8 +107,3 @@ Este comando compilará todo el código fuente desde `src/` y generará los `.cl
 ### Ejecución
 
 Para iniciar el programa, en el entorno que se preparo el programa (Visual Studio Code), se recomienda que se seleccione con el click derecho del mouse o touchpad el archivo **App.java** y seleccionar la opción **Run Java**. Esta es la opción más facil para poder iniciarlo, a fin de cuentas, se busca la comodidad del usuario.
-
-
-**Fin del documento**
-
-¿Te gustaría que ahora trabajemos en un diagrama de clases para incluir en `/img/diagrama_clases.png`? También puedo ayudarte a preparar una versión para impresión o presentación oral.
