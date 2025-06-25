@@ -1,7 +1,3 @@
-Perfecto, aquí tienes una **versión extendida, más detallada y formal del `README.md`**, con el nombre del autor y fecha bajo el título, argumentos más desarrollados para cada patrón, y una estructura pensada para presentación o defensa oral/escrita:
-
----
-
 # CRUD de Almacén con Patrones de Diseño GoF
 
 **Autor:** Vicente Lizana Farías
@@ -110,28 +106,8 @@ Este comando compilará todo el código fuente desde `src/` y generará los `.cl
 
 ### Ejecución
 
-Para iniciar el programa, ejecuta:
+Para iniciar el programa, en el entorno que se preparo el programa (Visual Studio Code), se recomienda que se seleccione con el click derecho del mouse o touchpad el archivo **App.java** y seleccionar la opción **Run Java**. Esta es la opción más facil para poder iniciarlo, a fin de cuentas, se busca la comodidad del usuario.
 
-```bash
-java -cp bin App
-```
-
-Esto abrirá el menú del sistema en consola.
-
-### Notas adicionales
-
-* Puedes salir del programa escribiendo `0` o simplemente presionando ENTER.
-* Se incluye una función de limpieza de pantalla compatible con algunas terminales.
-* Las imágenes, diagramas de clases y capturas de ejecución pueden ser almacenadas en la carpeta `/img`.
-
-Ejemplos de referencia desde este documento:
-
-```markdown
-![Diagrama de clases](img/diagrama_clases.png)
-![Captura de ejecución](img/ejecucion.png)
-```
-
----
 
 **Fin del documento**
 
