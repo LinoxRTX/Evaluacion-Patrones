@@ -41,6 +41,8 @@ A continuación, se describen los cuatro patrones de diseño implementados, incl
 
 **Justificación:** Centralizar el acceso al inventario asegura la coherencia del sistema. Todas las operaciones CRUD se realizan sobre la misma fuente de datos, simplificando la lógica y evitando problemas de concurrencia o duplicidad.
 
+![Patron Singleton](img/PatronCreacional.png)
+
 #### 2. Adapter (Patrón Estructural)
 
 **Ubicación:** Clases `ProductoExterno` (incompatible) y `ProductoAdaptado`.
@@ -50,6 +52,10 @@ A continuación, se describen los cuatro patrones de diseño implementados, incl
 **Implementación:** `ProductoAdaptado` hereda de `Producto` y toma como argumento un objeto `ProductoExterno`, transformando sus atributos a la estructura utilizada internamente.
 
 **Justificación:** Este patrón permite que el sistema sea extensible e interoperable con otros sistemas externos. La integración de productos externos se realiza sin alterar la clase base, cumpliendo con el principio abierto/cerrado (OCP) de SOLID.
+
+![Patron Adapter](img/PatronEstructural.png)
+
+![Patron Adapter 2](img/PatronEstructural2.png)
 
 #### 3. Observer (Patrón de Comportamiento)
 
@@ -61,6 +67,10 @@ A continuación, se describen los cuatro patrones de diseño implementados, incl
 
 **Justificación:** El patrón Observer mejora la escalabilidad y el desacoplamiento. Nuevos observadores pueden añadirse fácilmente sin modificar la lógica interna del almacén. Actualmente, se utiliza para mostrar mensajes en consola, pero puede ampliarse para enviar correos, actualizar interfaces gráficas, etc.
 
+![Patron Observer](img/PatronObservador.png)
+
+![Patron Observer 2](img/PatronObservador2.png)
+
 #### 4. Prototype (Libre elección)
 
 **Ubicación:** Clase `Producto` y opción 7 del menú en `App.java`.
@@ -70,6 +80,10 @@ A continuación, se describen los cuatro patrones de diseño implementados, incl
 **Implementación:** La clase `Producto` implementa `Cloneable` e incluye el método `clonar()`, que crea y devuelve una copia exacta del producto.
 
 **Justificación:** Este patrón facilita la reutilización de objetos existentes, especialmente cuando se trabaja con plantillas o productos con estructuras similares. En el sistema, el usuario puede clonar un producto y luego editar su nombre, lo que reduce el tiempo y errores en la creación de productos repetitivos.
+
+![Patron Prototype](img/PatronLibre.png)
+
+![Patron Prototype 2](img/PatronLibre2.png)
 
 ---
 
